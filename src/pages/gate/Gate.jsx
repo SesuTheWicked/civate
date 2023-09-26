@@ -6,8 +6,9 @@ import Footer from '../../components/containers/footer/footer'
 const Gate = () => {
   return (
     <div>
+      <Navbar/>
     <div>
-    <Navbar/>
+   
     
   </div>
  <div>

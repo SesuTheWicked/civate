@@ -11,9 +11,10 @@ import technik from '../../assets/technik.svg'
 import flags from '../../assets/flags.svg'
 import rockett from '../../assets/rockett.svg'
 
-const Prepare = () => {
+const Online = () => {
   return (
-  <div>
+    <div>
+      <div>
     <div>
       <Navbar/>
     </div>
@@ -103,7 +104,8 @@ Relevant/irrelevant <br />
         <div className='ellipse1'></div>
 </div>
 </div>
+    </div>
   )
 }
 
-export default Prepare
+export default Online

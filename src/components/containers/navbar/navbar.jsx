@@ -44,10 +44,10 @@ const Navbar = () => {
           </ul>
       </nav>
    <div className="under__Header">
-   <a href="/" className="test_format_button">Test Format</a>
-   <a href="/">Prepare</a>
-   <a href="/">Results</a>
-   <a href="/">FAQ</a>
+   <a href="/test_format" className="test_format_button">Test Format</a>
+   <a href="/online">Prepare</a>
+   <a href="/lisa">Results</a>
+   <a href="/faq">FAQ</a>
 </div>
 </div>
   )

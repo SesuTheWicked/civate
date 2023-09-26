@@ -9,6 +9,10 @@ import Home from './pages/home/home';
 import Pocas from './pages/pocas/Pocas';
 import Gate from './pages/gate/Gate';
 import Lisa from './pages/lisa/Lisa';
+import Prepare from './pages/prepare/prepare';
+import Online from './pages/online/Online';
+import Onsite from './pages/onsite/Onsite';
+import TestFormat from './pages/test_format/TestFormat';
 
 
 function App() {
@@ -19,9 +23,13 @@ function App() {
         <Route path='/' element={<Home/>}/>
         <Route path='/gate' element={<Gate/>}/>
         <Route path='/lisa' element={<Lisa/>}/>
+        <Route path='/online' element={<Online/>}/>
+        <Route path='/onsite' element={<Onsite/>}/>
+        <Route path='/prepare' element={<Prepare/>}/>
         <Route path='/pocas' element={<Pocas/>}/>
         <Route path='/research' element={<Research/>}/>
         <Route path='/results' element={<Results/>}/>
+        <Route path='/test_format' element={<TestFormat/>}/>
         <Route path='/faq' element={<Faq/>}/>
         <Route path='/whyUs' element={<WhyUs/>}/>
         <Route path='/student/login' element={<WhyUs/>}/>

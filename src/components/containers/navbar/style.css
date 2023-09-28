@@ -33,6 +33,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1;
 }
 
 .vector {
@@ -183,6 +184,7 @@ cursor: pointer;
       width: 100%;
       left: 0;
       padding-top: 20px;
+      z-index: 0;
      }
      
      .box {

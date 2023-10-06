@@ -23,25 +23,27 @@ body {
   padding: 0;
 }
 
-.navv{
+.nav_linkk{
+color: #ffffff;
+}
+.navvv{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: white;
+    background: #282828;
     height: 8vh;
     text-decoration: none;
     position: fixed;
     top: 0;
     width: 100%;
+    color: #ffffff;
     z-index: 2;
-    
 }
 
 .vector {
     height: 40px;
     size: 40px;
     margin-right: 7px;
-
     }
     
 
@@ -61,13 +63,8 @@ line-height: 1.4px;
 text-align: right;
 cursor: pointer;
 
-
-
-
-
-
     }
-.nav_brand{
+.nav_brandd{
     text-transform: uppercase;
     font-weight: bold;
     font-size: 70px;
@@ -75,6 +72,7 @@ cursor: pointer;
     margin-top: -30px;
     text-decoration: none;
     margin-right: 350px;
+   color: #ffffff;
 
 }
 .login {

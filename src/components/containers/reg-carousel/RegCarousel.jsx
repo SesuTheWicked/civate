@@ -1,7 +1,4 @@
 import React from 'react'
-import './style.css'
-import BlackFooter from '../../../components/containers/black_footer/BlackFooter'
-import UnsignedNav from '../../../components/containers/unsignedNav/UnsignedNav'
 import greenshield from '../../../assets/greenshield.svg'
 import pic1 from  '../../../assets/1.svg'
 import pic2 from  '../../../assets/2.svg'
@@ -9,17 +6,13 @@ import pic3 from  '../../../assets/3.svg'
 import pic4 from  '../../../assets/4.svg'
 import normal from  '../../../assets/normal.svg'
 import greenArrow from '../../../assets/green_arrows.svg'
-import greenSubtract from '../../../assets/greenSubtract.svg'
+import './style.css'
 
 
-const PersonalData = () => {
+const RegCarousel = () => {
   return (
     <div>
-       <UnsignedNav/>
-      <div className='black_page'>
-      <div className='div'> 
-
-      <div className='flex_green_sign'>
+        <div className='flex_green_sign'>
           <img src={greenshield} alt="img" className='green_body'/>
           <div className='signup_white'>Sign Up</div>
         </div>
@@ -61,65 +54,8 @@ const PersonalData = () => {
             <div className='information_unselected'>Done</div>
           </div>
         </div>
-
-
-
-
-<div>
-  <div className='bluk'>
-    <form action="" className='form_class'>
-
-     <div className='fall'>
-     <label htmlFor="" className='labels'>First name & Middle name: <br />
-      <input type="text" placeholder='Name' className='inputs'/>
-      </label>
-
-    <label htmlFor="" className='labels'>Surname: <br />
-      <input type="text"  placeholder='Enter Surname' className='inputs'/>
-    </label>
-
-    <label htmlFor="" className='labels'>Position: <br />
-      <input type="text" placeholder=' Enter Position' className='inputs'/>
-    </label>
-     </div>
-
-
-     <div className='right_side'>
-      <label htmlFor="" className='labels'>Type of Account: <br />
-       <select name="" id="" className='inputs'>
-        <option value="university" className='inputs'>Student</option>
-        <option value="staff" className='inputs'>Registered student</option>
-       </select>
-      </label>
-
-      <label htmlFor="" className='labels'>E-mail: <br />
-        <input type="text" placeholder='Enter Email' className='inputs'/>
-      </label>
-
-      <div className='submit_section'>
-        <button type='submit' className='next_big'>Next</button>
-        <img src={greenSubtract} alt="img" className='subtract_img'/>
-        <span className='already_register'>Already Registered :</span>
-      </div>
-
-     </div>
-     
-      
-     
-    </form>
-  </div>
-  </div>
-       
-          
-       
-  
-   <BlackFooter/>
-</div>
-
-      </div>
-     
     </div>
   )
 }
 
-export default PersonalData
+export default RegCarousel

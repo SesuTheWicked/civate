@@ -11,6 +11,7 @@ import technik from '../../assets/technik.svg'
 import flags from '../../assets/flags.svg'
 import rockett from '../../assets/rockett.svg'
 
+
 const Online = () => {
   return (
     <div>

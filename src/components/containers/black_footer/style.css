@@ -1,0 +1,69 @@
+
+.second_nav_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    color: #ffffff;
+    font-family: "Gordita-Regular", Helvetica;
+  font-size: 50px;
+  font-weight: 400;
+  height: 26px;
+  left: 0;
+  letter-spacing: 1.1px;
+  line-height: 32.5px;
+}
+
+.nav__itemlist{
+  color: #ffffff;
+  font-family: "Gordita-Regular", Helvetica;
+}
+
+.copyright {
+  color: #ffffff;
+  font-family: "PP Monument Extended-Light", Helvetica;
+  font-size: 30px;
+  font-weight: 300;
+  height: 33px;
+  left: 0;
+  letter-spacing: 1.1px;
+  line-height: 90.5px;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  }
+
+  .copyright2 {
+    color: #33cc00;
+    font-family: "PP Monument Extended-Light", Helvetica;
+    font-size: 30px;
+    font-weight: 300;
+    height: 33px;
+    letter-spacing: 0.99px;
+    line-height: 130.5px;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+    }
+    
+.second_footer {
+    justify-content: center;
+    align-items: center;
+    margin-left: -100px;
+    bottom: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0; /* Add padding for better visual separation */
+    padding-bottom: 200px;
+  
+    background-color: #282828;
+}
+
+    .manage{
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+        line-height: 70px;
+    }

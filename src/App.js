@@ -28,6 +28,8 @@ import TimeDate from './pages/student/timedate/TimeDate';
 import PhotoValidation from './pages/student/photovalidation/PhotoValidation';
 import PaymentPage from './pages/student/paymentpage/PaymentPage';
 import PaymentCompletion from './pages/student/paymentcompletion/PaymentCompletion';
+import OnlineOfline from './pages/student/onlineofline/OnlineOfline';
+import ReviewSubmit from './pages/student/reviewsubmit/ReviewSubmit';
 
 function App() {
   return (
@@ -53,8 +55,14 @@ function App() {
         <Route path='/institution/personal-information' element={<PersonalInformation/>}/>
         <Route path='/student/signup' element={<Signup/>}/>
         <Route path='/student/additionaldata' element={<AdditionalData/>}/>
+        <Route path='/student/timedate' element={<TimeDate/>}/>
         <Route path='/student/personaldata' element={<PersonalData/>}/>
+        <Route path='/student/onlineofline' element={<OnlineOfline/>}/>
+        <Route path='/student/photovalidation' element={<PhotoValidation/>}/>
+        <Route path='/student/paymentpage' element={<PaymentPage/>}/>
+        <Route path='/student/paymentcompletion' element={<PaymentCompletion/>}/>
         <Route path='/student/username-password' element={<UserPass/>}/>
+        <Route path='/student/reviewsubmit' element={<ReviewSubmit/>}/>
         <Route path='/institution/success' element={<Success/>}/>
         <Route path='/institution/done' element={<Done/>}/>
       </Routes>

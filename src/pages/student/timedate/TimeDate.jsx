@@ -14,6 +14,16 @@ const TimeDate = () => {
         <div className='try'>
           <div className='second_block'>
           <TestCarousel/>
+        <div className='review_flex1'>
+
+          <div>
+            <label htmlFor="" className='labels'> <span className='numbers_green'>1</span>Choose Month: <br /><input type="month" className='inputs'/></label> <br />
+            <label htmlFor="" className='labels'><span className='numbers_green'>2</span>Select Day: <br /><input type="date" className='inputs' /></label>
+          </div>
+
+          <div className='choose1'><label htmlFor="" className='labels'> <span className='numbers_green'>3</span>Choose Available Time: <br /><input type="time" className='inputs'/></label></div>
+        </div>
+        <div className='button_position'><button className='next_big'>Next</button></div>
           </div>
         </div>
         <Footer />

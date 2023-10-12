@@ -1,6 +1,9 @@
 import React from 'react'
+import SignedNav from '../../../components/containers/signed/SignedNav'
+import Footer from '../../../components/containers/footer/footer'
+import './style.css'
 
-const Dashboard = () => {
+const StudentDashboard = () => {
   return (
     <div>
       
@@ -8,4 +11,4 @@ const Dashboard = () => {
   )
 }
 
-export default Dashboard
+export default StudentDashboard

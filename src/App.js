@@ -30,6 +30,14 @@ import PaymentPage from './pages/student/paymentpage/PaymentPage';
 import PaymentCompletion from './pages/student/paymentcompletion/PaymentCompletion';
 import OnlineOfline from './pages/student/onlineofline/OnlineOfline';
 import ReviewSubmit from './pages/student/reviewsubmit/ReviewSubmit';
+import Cart from './pages/student/cart/cart';
+import StudentDashboard from './pages/student/dashboard/dashboard';
+import UniversityDashboard from './pages/institution/dashboard/UniversityDashboard';
+import UniversityLogin from './pages/institution/login/login';
+
+
+
+
 
 function App() {
   return (

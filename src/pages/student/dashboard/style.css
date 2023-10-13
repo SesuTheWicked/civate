@@ -1,0 +1,63 @@
+.just{
+    justify-content: center !important;
+    margin-top: 200px;
+}
+
+.block_functions {
+    background-color: #282828;
+    border-radius: 48px;
+    height: 501px;
+    left: 0;
+    top: 0;
+    width: 656px;
+    }
+
+    .bold_dashboard {
+        color: #282828;
+        font-family: "Monument Extended-Regular", Helvetica;
+        font-size: 70px;
+        font-weight: bold !important;
+        height: 64px;
+        left: 0;
+        letter-spacing: -1.8px;
+        line-height: 64.2px;
+        top: 0;
+        white-space: nowrap;
+        }
+
+        .my_test {
+            color: #282828;
+            font-family: "Monument Extended-Regular", Helvetica;
+            font-size: 40px;
+            font-weight: bold;
+            height: 36px;
+            left: 0;
+            letter-spacing: 0;
+            line-height: 36.4px;
+            white-space: nowrap;
+            }
+
+            .less_text {
+                color: #282828;
+                font-family: "Gordita-Regular", Helvetica;
+                font-size: 20px;
+                font-weight: 400;
+                height: 21px;
+                left: 0;
+                letter-spacing: 0;
+                line-height: 21.4px;
+                text-align: right;
+                white-space: nowrap;
+                }
+
+                .dashboard_flex{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 7rem;
+                    margin-top: 80px;
+                    line-height: 50px;
+                }
+
+                
+                

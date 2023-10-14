@@ -60,8 +60,11 @@ function App() {
         <Route path='/whyUs' element={<WhyUs/>}/>
         <Route path='/institution/additional-information' element={<AdditionalInformation/>}/>
         <Route path='/institution/user-pass' element={<UsernamePassword/>}/>
+        <Route path='/institution/university-dashboard' element={<UniversityDashboard/>}/>
+        <Route path='/institution/university-login' element={<UniversityLogin/>}/>
         <Route path='/institution/personal-information' element={<PersonalInformation/>}/>
         <Route path='/student/signup' element={<Signup/>}/>
+        <Route path='/student/student-dashboard' element={<StudentDashboard/>}/>
         <Route path='/student/additionaldata' element={<AdditionalData/>}/>
         <Route path='/student/timedate' element={<TimeDate/>}/>
         <Route path='/student/personaldata' element={<PersonalData/>}/>

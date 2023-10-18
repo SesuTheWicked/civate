@@ -34,6 +34,7 @@ import Cart from './pages/student/cart/cart';
 import StudentDashboard from './pages/student/dashboard/dashboard';
 import UniversityDashboard from './pages/institution/dashboard/UniversityDashboard';
 import UniversityLogin from './pages/institution/login/login';
+import Payment from './pages/student/payment/Payment';
 
 
 
@@ -72,6 +73,7 @@ function App() {
         <Route path='/student/photovalidation' element={<PhotoValidation/>}/>
         <Route path='/student/paymentpage' element={<PaymentPage/>}/>
         <Route path='/student/paymentcompletion' element={<PaymentCompletion/>}/>
+        <Route path='/student/payment' element={<Payment/>}/>
         <Route path='/student/username-password' element={<UserPass/>}/>
         <Route path='/student/reviewsubmit' element={<ReviewSubmit/>}/>
         <Route path='/institution/success' element={<Success/>}/>

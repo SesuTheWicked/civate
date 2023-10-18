@@ -14,6 +14,11 @@ import askk from '../../../assets/askk.svg'
 import can from '../../../assets/can.svg'
 import ons from '../../../assets/ons.svg'
 import ass from '../../../assets/ass.svg'
+import reading from '../../../assets/reading.png'
+import reading2 from '../../../assets/reading2.png'
+import read_photo from '../../../assets/read_photo.png'
+import read_photo2 from '../../../assets/read_photo2.png'
+
 
 import './style.css'
 
@@ -84,7 +89,7 @@ const UniversityDashboard = () => {
 
 
         </div>
-        <div className='dashboard_flex'>
+        <div className='ask_flex'>
 
   <div className=''>
     <div className='ads'><img src={ass} alt="" className='ads_img'/>Assesment Tools:</div>
@@ -111,8 +116,32 @@ const UniversityDashboard = () => {
    <div className='ads'><img src={askk} alt="" className='ads_img'/>Ask Our Support Chat!</div>
    <button className='ask_button'>Ask Now!</button>
   </div>
-
 </div>
+
+<div className='foto_flex'>
+
+
+  <div className='green_girl'>
+    <div><img src={read_photo2} alt="img" /></div>
+    <div className='green_girl_div'><img src={reading2} alt="img" /></div>
+    <div className='grow_cicate'>Grow With <br />Cicate</div>
+    </div>
+
+
+  <div className='green_boy'>
+    <div className='gy'><img src={reading} alt="img" /></div>
+    <div className='green_boy_div'><img src={read_photo} alt="img" /></div>
+    <div className='cicate_move'>
+      <span className=''>Cicate</span> <br />
+      <span className='like_pro'> Take Test <br />
+        Like Pro!</span>
+      <br />
+      <span className='like_pro1'>Test yourself!</span>
+      </div>
+    </div>
+</div>
+
+
       </div>
     </div>
   )

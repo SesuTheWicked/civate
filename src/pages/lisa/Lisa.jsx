@@ -79,6 +79,7 @@ In summary, LISA plays a crucial role in the hiring process by evaluating the
   </p>
 </div>
 
+<Footer/>
     </div>
   )
 }

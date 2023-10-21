@@ -20,7 +20,7 @@ import AdditionalInformation from './pages/institution/additional-information/Ad
 import Done from './pages/institution/done/Done';
 import PersonalInformation from './pages/institution/personal-information/PersonalInformation';
 import UsernamePassword from './pages/institution/user-pass/UsernamePassword';
-import AdditionalData from './pages/student/additionaldata/AdditionalData';
+
 import PersonalData from './pages/student/personaldata/personaldata';
 import UserPass from './pages/student/username-password/UserPass';
 import TimeDate from './pages/student/timedate/TimeDate';
@@ -66,7 +66,7 @@ function App() {
         <Route path='/institution/personal-information' element={<PersonalInformation/>}/>
         <Route path='/student/signup' element={<Signup/>}/>
         <Route path='/student/student-dashboard' element={<StudentDashboard/>}/>
-        <Route path='/student/additionaldata' element={<AdditionalData/>}/>
+      
         <Route path='/student/timedate' element={<TimeDate/>}/>
         <Route path='/student/cart' element={<Cart/>}/>
         <Route path='/student/personaldata' element={<PersonalData/>}/>

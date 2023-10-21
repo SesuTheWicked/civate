@@ -20,7 +20,7 @@ import AdditionalInformation from './pages/institution/additional-information/Ad
 import Done from './pages/institution/done/Done';
 import PersonalInformation from './pages/institution/personal-information/PersonalInformation';
 import UsernamePassword from './pages/institution/user-pass/UsernamePassword';
-import AdditionalData from './pages/student/additionaldata/additionaldata.jsx';
+import AdditionalData from './pages/student/Additionaldata/AdditionalData';
 import PersonalData from './pages/student/personaldata/personaldata';
 import UserPass from './pages/student/username-password/UserPass';
 import TimeDate from './pages/student/timedate/TimeDate';

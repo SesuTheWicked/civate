@@ -9,7 +9,7 @@ import pic3 from  '../../../assets/3.svg'
 import pic4 from  '../../../assets/4.svg'
 import normal from  '../../../assets/normal.svg'
 import greenArrow from '../../../assets/green_arrows.svg'
-import greenSubtract from '../../../assets/greenSubtract.svg'
+
 
 
 const PersonalData = () => {

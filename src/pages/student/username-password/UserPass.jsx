@@ -2,7 +2,7 @@ import React from 'react'
 import BlackFooter from '../../../components/containers/black_footer/BlackFooter'
 import UnsignedNav from '../../../components/containers/unsignedNav/UnsignedNav'
 import RegCarousel from '../../../components/containers/reg-carousel/RegCarousel'
-import greenSubtract from '../../../assets/greenSubtract.svg'
+
 import './style.css'
 
 

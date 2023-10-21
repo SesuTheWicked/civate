@@ -14,7 +14,6 @@ import facebook from '../../assets/facebook.png'
 import youtube from '../../assets/youtube.png'
 import linkedin from '../../assets/linkedin.png'
 import gradient from '../../assets/gradient.svg'
-import Footer from '../../components/containers/footer/footer'
 
 const TestFormat = () => {
   return (

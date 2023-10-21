@@ -3,13 +3,6 @@ import Navbar from '../../components/containers/navbar/navbar'
 import './style.css'
 import wifi from '../../assets/wifi.svg'
 import physical from '../../assets/physical.svg'
-import book1 from '../../assets/book1.svg'
-import book2 from '../../assets/book2.svg'
-import keyboard from '../../assets/keyboard.svg'
-import database from '../../assets/database.svg'
-import technik from '../../assets/technik.svg'
-import flags from '../../assets/flags.svg'
-import rockett from '../../assets/rockett.svg'
 import Footer from '../../components/containers/footer/footer'
 
 const Onsite = () => {

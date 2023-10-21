@@ -143,6 +143,7 @@ const UniversityDashboard = () => {
 
 
       </div>
+      <Footer/>
     </div>
   )
 }

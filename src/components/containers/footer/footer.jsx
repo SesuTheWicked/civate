@@ -3,7 +3,8 @@ import './style.css'
 
 const Footer = () => {
   return (
-       <footer className="footer">
+    
+      <footer className="footer">
         <ul> Test takers
           <br />
           <br />
@@ -39,6 +40,8 @@ const Footer = () => {
               <p className='footer__container'>All trademarks are the property of their respective owners</p>
             </div>
           </footer>
+     
+       
   )
 }
 

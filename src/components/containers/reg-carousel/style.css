@@ -1,6 +1,6 @@
 .div {
     background-color: #282828;
-    height: 2000px;
+    
     position: relative;
     width: 1980px;
     color: white;
@@ -144,39 +144,7 @@ white-space: nowrap;
     top: 0;
     width: 46px;
     }
-            .labels{
-                
-                    color: #ffffff;
-                    font-family: "Gordita-Regular", Helvetica;
-                    font-size: 30px;
-                    font-weight: 400;
-                    height: 25px;
-                    left: 0;
-                    letter-spacing: 0;
-                    line-height: 32.5px;
-                    opacity: 0.7;
-                    top: 0;
-                    white-space: nowrap;
-                    width: 215px;
-                    }
-                     
-                    .inputs{
-                        color: #ffffff;
-                        font-family: "PP Monument Extended-Light", Helvetica;
-                        font-size: 18px;
-                        font-weight: 300;
-                        height: 60px;
-                        left: 0;
-                        letter-spacing: 0;
-                        line-height: 40.5px;
-                        text-align: center;
-                        top: 0;
-                        white-space: nowrap;
-                        width: 700px;
-                        background-color: #282828;
-                        border: #33CC00;
-                        border-radius: 30px;
-                        }
+           
 
                         .form_class{
                           display: flex;

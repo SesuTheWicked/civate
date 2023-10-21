@@ -2,7 +2,7 @@
     display: flex;
    justify-content: center;
    align-items: center;
-    margin-top: 400px;
+    margin-top: 200px;
     color: #282828;
     font-family: "Monument Extended-Regular", Helvetica;
     font-size: 180px;
@@ -12,24 +12,34 @@
     text-align: center;
     white-space: nowrap;
 }
+
+.faq_up{
+    margin-bottom: 40px;
+}
 .first_box{
     background-color: #282828;
     border-radius: 50px;
-    height: 739px;
-    left: 0;
-    top: 0;
-    width: 628px;
-    margin-top: -440px;
+    margin-bottom: 350px;
 }
 
 .first_box1{
     background-color: #282828;
     border-radius: 50px;
-    height: 739px;
-    left: 0;
-    top: 0;
-    width: 628px;
     margin-top: 40px;
+    padding-bottom: 80px;
+    
+    
+}
+
+.first_box11{
+    background-color: #282828;
+    border-radius: 50px;
+    margin-top: 40px;
+    padding: 10px;
+    margin-bottom: 30px;
+   
+   
+    
 }
 
 .white_box {
@@ -141,21 +151,15 @@ width: 28px;
 .second_box{
     background-color: #282828;
     border-radius: 50px;
-    height: 1188px;
-    left: 0;
-    top: 0;
-    width: 628px;
+   
 }
 
 
 .second_box1{
     background-color: #282828;
     border-radius: 50px;
-    height: 1188px;
-    left: 0;
-    top: 0;
-    width: 628px;
     margin-top: -440px;
+    margin-right: 120px;
 }
 
 
@@ -164,7 +168,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 gap: 5rem;
-padding-top: 20px;
+padding-top: 30px;
 }
 .labels {
     height: 85px;

@@ -5,7 +5,6 @@ import WhyUs from './pages/whyUs/whyUs';
 import Research from './pages/research/research';
 import Results from './pages/results/results';
 import Faq from './pages/faq/faq';
-import Home from './pages/home/home';
 import Pocas from './pages/pocas/Pocas';
 import Gate from './pages/gate/Gate';
 import Lisa from './pages/lisa/Lisa';
@@ -35,6 +34,7 @@ import StudentDashboard from './pages/student/dashboard/dashboard';
 import UniversityDashboard from './pages/institution/dashboard/UniversityDashboard';
 import UniversityLogin from './pages/institution/login/login';
 import Payment from './pages/student/payment/Payment';
+import Review from './pages/student/review/review';
 
 
 
@@ -45,7 +45,7 @@ function App() {
     <div className="App">
      <Router>
       <Routes>
-        <Route path='/' element={<Home/>}/>
+       
         <Route path='/gate' element={<Gate/>}/>
         <Route path='/lisa' element={<Lisa/>}/>
         <Route path='/online' element={<Online/>}/>
@@ -55,7 +55,7 @@ function App() {
         <Route path='/research' element={<Research/>}/>
         <Route path='/institutions' element={<Institutions/>}/>
         <Route path='/results' element={<Results/>}/>
-        <Route path='/test_format' element={<TestFormat/>}/>
+        <Route path='/home' element={<TestFormat/>}/>
         <Route path='/faq' element={<Faq/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/whyUs' element={<WhyUs/>}/>
@@ -68,6 +68,7 @@ function App() {
         <Route path='/student/student-dashboard' element={<StudentDashboard/>}/>
         <Route path='/student/additionaldata' element={<AdditionalData/>}/>
         <Route path='/student/timedate' element={<TimeDate/>}/>
+        <Route path='/student/cart' element={<Cart/>}/>
         <Route path='/student/personaldata' element={<PersonalData/>}/>
         <Route path='/student/onlineofline' element={<OnlineOfline/>}/>
         <Route path='/student/photovalidation' element={<PhotoValidation/>}/>
@@ -76,6 +77,7 @@ function App() {
         <Route path='/student/payment' element={<Payment/>}/>
         <Route path='/student/username-password' element={<UserPass/>}/>
         <Route path='/student/reviewsubmit' element={<ReviewSubmit/>}/>
+        <Route path='/student/review' element={<Review/>}/>
         <Route path='/institution/success' element={<Success/>}/>
         <Route path='/institution/done' element={<Done/>}/>
       </Routes>

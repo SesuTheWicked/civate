@@ -95,8 +95,8 @@ abilities, we aim to break down barriers and open doors to a world of opportunit
         </div>
 
     </div>
-    </div>
-
+    </div>s
+<div className='last'>
 <div className='image_slant'>
     <div><img src={union} alt="" className='union'/></div>
     <div><img src={unionx} alt="" className='unionx'/></div>
@@ -107,7 +107,10 @@ abilities, we aim to break down barriers and open doors to a world of opportunit
     <div className='test_subheader'>Make sure to reach out to our ads here!</div>
     <button className='buton_test'>Read More</button>
 </div>
+</div>
 
+
+<Footer/>
     </div>
   )
 }

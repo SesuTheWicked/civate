@@ -10,6 +10,7 @@ import database from '../../assets/database.svg'
 import technik from '../../assets/technik.svg'
 import flags from '../../assets/flags.svg'
 import rockett from '../../assets/rockett.svg'
+import Footer from '../../components/containers/footer/footer'
 
 const Onsite = () => {
   return (
@@ -93,6 +94,7 @@ and career excellence begins with thorough preparation. </p>
       <div className='ellipse1'></div>
 </div>
 </div>
+<Footer/>
   </div>
   )
 }

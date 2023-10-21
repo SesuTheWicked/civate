@@ -47,6 +47,7 @@ const ReviewSubmit = () => {
             <div className='terms'> <span className='checkbox'><input type="checkbox"/></span>Agreeing with Privacy Conditions</div>
         </div>
       </div>
+      <Footer/>
     </div>
   )
 }

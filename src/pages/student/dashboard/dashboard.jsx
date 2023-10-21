@@ -91,7 +91,7 @@ Test Center Procedures & <br /> Regulations</p>
 
 </div>
       </div>
-    
+    <Footer/>
     </div>
   )
 }

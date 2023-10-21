@@ -1,6 +1,7 @@
 import React from 'react'
 import IdSlide from '../../../components/containers/id_slide/IdSlide'
 import SignedNav from '../../../components/containers/signed/SignedNav'
+import Footer from '../../../components/containers/footer/footer'
 import './style.css'
 const Payment = () => {
   return (
@@ -21,10 +22,10 @@ const Payment = () => {
                     <input type="text" className='inputs' placeholder='1234 764 9043 234' />
                 </label>
 
-                <br /><label htmlFor="" className='labels'>Date: <br />
+                <br /><br /><label htmlFor="" className='labels'>Date: <br />
                     <input type="date" className='inputs'/>
                     </label>
-                <br /><label htmlFor="" className='labels'>Card Type: <br />
+               <br /> <br /><label htmlFor="" className='labels'>Card Type: <br />
                     <select name="" id="" className='inputs'>
                     <option value="" className='inputs'>Visa</option>
                     <option value="" className='inputs'>MasterCard</option>
@@ -56,6 +57,7 @@ const Payment = () => {
         <div className='john_oliver'>JOHN OLIVER</div>
        </div>
     </div>
+    <Footer/>
     </div>
   )
 }

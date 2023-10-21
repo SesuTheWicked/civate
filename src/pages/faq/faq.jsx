@@ -2,11 +2,12 @@ import React from 'react'
 import Navbar from '../../components/containers/navbar/navbar'
 import './style.css'
 import tick from '../../assets/tick.svg'
+import Footer from '../../components/containers/footer/footer'
 const Faq = () => {
   return (
     <div>
       <Navbar/>
-      <div>
+      <div className='faq_up'>
         <div className='faq'>FAQ</div>
       </div>
       <div>
@@ -78,7 +79,7 @@ educational and professional opportunities internationally and abroad.
 </div>
 
    </div>
-   <div className='first_box1'>
+   <div className='first_box11'>
    <div>
 <p className="white_header">General FAQ</p>
 </div>
@@ -96,6 +97,7 @@ educational and professional opportunities internationally and abroad.
 </div>
      </div>
       </div>
+      <Footer/>
     </div>
   )
 }

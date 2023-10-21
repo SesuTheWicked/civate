@@ -4,6 +4,7 @@ import long from '../../assets/block-for-text.svg'
 import imagetrs from '../../assets/Imagetrs.png'
 import './style.css'
 import paperhold from '../../assets/paperhold.png'
+import Footer from '../../components/containers/footer/footer'
 
 const Institutions = () => {
   return (
@@ -60,6 +61,7 @@ const Institutions = () => {
   </div>
 
 </div>
+<Footer/>
     </div>
   )
 }

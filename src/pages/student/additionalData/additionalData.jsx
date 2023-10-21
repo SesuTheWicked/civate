@@ -15,33 +15,36 @@ const AdditionalData = () => {
           <div className='bluk2'>
             <form action="" className='form_class2'>
 
-              <div className='fall3'>
+              <div className='fall4'>
                 <label htmlFor="" className='labels'>Country of Birth: <br /><select name="" id="" className='inputs'>
                   <option value="select" className=''>Select</option>
                   </select>
                   </label>
-                <label htmlFor="" className='labels'>Native Language: <br /><select name="" id="" className='inputs'>
+                <label htmlFor="" className='labels'> <br />Native Language: <br /><select name="" id="" className='inputs'>
                   <option value="select" className=''>Select</option>
                   </select>
                   </label>
               </div>
 
 
-              <div className='right_side3'>
+              <div className='right_side5'>
               <label htmlFor="" className='labels'>Country of Citizenship: <br /><select name="" id="" className='inputs'>
                 <option value="select">Select</option>
                 </select>
                 </label>
               <div className='submit_section'>
-        <button type='submit' className='next_big'>Next</button>
-        <img src={greenSubtract} alt="img" className='subtract_img'/>
+                <a href="/student/username-password" className='next_big'>Next</a>
+
+        
       </div>
               </div>
             </form>
           </div>
-<BlackFooter/>
+
         </div>
+      
       </div>
+      <BlackFooter/>
     </div>
   )
 }

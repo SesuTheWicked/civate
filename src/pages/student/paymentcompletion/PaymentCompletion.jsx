@@ -29,7 +29,7 @@ const PaymentCompletion = () => {
           </div>
         </div>
       </div>
-      <Footer/>
+     <div className='bottom0'><Footer/></div>
     </div>
   )
 }

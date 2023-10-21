@@ -98,7 +98,7 @@ assess the academic readiness of applicants,
     studies without financial constraints.
     </p>
   </div>
-  
+  <Footer/>
   </div>
   )
 }

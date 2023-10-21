@@ -34,6 +34,7 @@ const PaymentPage = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   )
 }

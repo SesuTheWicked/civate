@@ -25,7 +25,7 @@ const UsernamePassword = () => {
               <label htmlFor="" className='labels'>Username: <br /><input type="text" className='inputs' placeholder='Username'/></label>
               <div className='submit_section'>
         <button type='submit' className='next_big'>Next</button>
-        <img src={greenSubtract} alt="img" className='subtract_img'/>
+       
       </div>
               </div>
 

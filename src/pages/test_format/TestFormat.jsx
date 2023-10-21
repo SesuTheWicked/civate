@@ -14,10 +14,12 @@ import facebook from '../../assets/facebook.png'
 import youtube from '../../assets/youtube.png'
 import linkedin from '../../assets/linkedin.png'
 import gradient from '../../assets/gradient.svg'
+import Footer from '../../components/containers/footer/footer'
 
 const TestFormat = () => {
   return (
     <div>
+      <div>
       <div>
         <Navbar/>
       </div>
@@ -205,10 +207,13 @@ competence for studying or working abroad.
    <a href="/"><img src={facebook} alt="img" className='socials_icons'/></a> 
 </div>
 </div>
-<div><img src={gradient} alt="img" className='gradient_class' /></div>
+<div><img src={gradient} alt="img" className='gradient_class' />
 </div>
 </div>
-    </div>
+</div>
+</div>
+
+</div>
   )
 }
 

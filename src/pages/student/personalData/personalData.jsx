@@ -97,9 +97,10 @@ const PersonalData = () => {
       </label>
 
       <div className='submit_section'>
-        <button type='submit' className='next_big'>Next</button>
-        <img src={greenSubtract} alt="img" className='subtract_img'/>
-        <span className='already_register'>Already Registered :</span>
+        <a href="/student/additionaldata" className='next_big'>Next</a>
+       
+       
+        <span className=''><a href="/institution/university-login" className='already_register'>Already Registered?</a></span>
       </div>
 
      </div>

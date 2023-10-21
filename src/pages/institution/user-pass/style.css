@@ -1,31 +1,15 @@
-.div {
-    background-color: #282828;
-    height: 2000px;
-    position: relative;
-    width: 1980px;
-    color: white;
-    }
-    .black_page {
-        background-color: #282828;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        width: 100%;
-    }
+
 
     .bluk2 {
-        height: 250px;
-        left: 0;
-        top: 0;
-        width: 1600px;
         z-index: 0;
         background-color: #020202;
         border-radius: 60px;
         justify-content: center;
-        position: relative;
         margin-top: 100px;
         margin-left: 160px;
-        padding-bottom: 70px;
+        padding-bottom: 120px;
+        display: flex;
+        
         
         }
 
@@ -40,13 +24,14 @@
         .fall3{
             margin-left: 100px;
             justify-content: center;
-            margin-left: 40px;
-            padding-top: 29px;
+            line-height: 60px;
+          
+            
         }
 
         .right_side3{
             margin-right: 30px;
-            margin-top: 50px;
+            margin-top: 70px;
         }
 
         

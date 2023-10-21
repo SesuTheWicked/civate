@@ -17,7 +17,7 @@ const TimeDate = () => {
         <div className='review_flex1'>
 
           <div>
-            <label htmlFor="" className='labels'> <span className='numbers_green'>1</span>Choose Month: <br /><input type="month" className='inputs'/></label> <br />
+            <label htmlFor="" className='labels'> <span className='numbers_green'>1</span>Choose Month: <br /><input type="month" className='inputs'/></label> <br /> <br />
             <label htmlFor="" className='labels'><span className='numbers_green'>2</span>Select Day: <br /><input type="date" className='inputs' /></label>
           </div>
 

@@ -18,21 +18,21 @@ const AdditionalInformation = () => {
           <div className='bluk_big'>
          <form action="" className='form_class1'>
           <div className='fall1'>
-          <label htmlFor="" className='labels'>Institution Details: <br /><input type="text" className='inputs' placeholder='Name'/></label>
-          <label htmlFor="" className='labels'>Acronym: <br /><input type="text" className='inputs' placeholder='Acronym' /></label>
-          <label htmlFor="" className='labels'>Biography: Max 500 words: <br />
-          <textarea name="" id="" cols="60" rows="80" className='inputs1' placeholder=''></textarea></label>
+          <label htmlFor="" className='labels'>Institution Details: <br /><input type="text" className='inputs' placeholder='Name'/></label> <br />
+         <label htmlFor="" className='labels'> <br />Acronym: <br /><input type="text" className='inputs' placeholder='Acronym' /></label> <br />
+          <label htmlFor="" className='labels'> <br />Biography: Max 500 words: <br />
+          <textarea name="" id="" cols="70" rows="10" className='inputs1' placeholder=''></textarea></label>
           </div>
 
           <div className='right_side1'>
             <label htmlFor="" className='labels'>Type of University: <br />
            <input type="text" className='inputs' />
-              </label>
-              <label htmlFor="" className='labels'>Location: <br /><input type="text" placeholder='' className='inputs'/></label>
-              <label htmlFor="" className='labels'>Linkedin: <br /><input type="text" placeholder='' className='inputs' /></label>
-              <label htmlFor="" className='labels'>Facebook: <br /><input type="text" placeholder='' className='inputs'/></label>
-              <label htmlFor="" className='labels'>Instagram: <br /><input type="text" placeholder='' className='inputs' /></label>
-              <label htmlFor="" className='labels'>Twitter: <br /><input type="text" placeholder='' className='inputs'/></label>
+              </label> <br />
+              <label htmlFor="" className='labels'> <br />Location: <br /><input type="text" placeholder='' className='inputs'/></label> <br />
+              <label htmlFor="" className='labels'> <br />Linkedin: <br /><input type="text" placeholder='' className='inputs' /></label> <br />
+              <label htmlFor="" className='labels'> <br />Facebook: <br /><input type="text" placeholder='' className='inputs'/></label> <br />
+              <label htmlFor="" className='labels'> <br />Instagram: <br /><input type="text" placeholder='' className='inputs' /></label> <br />
+              <label htmlFor="" className='labels'> <br />Twitter: <br /><input type="text" placeholder='' className='inputs'/></label> <br />
 
               <div className='submit_section'>
         <button type='submit' className='next_big'>Next</button>
